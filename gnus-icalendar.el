@@ -10,7 +10,7 @@
 
 (defvar gnus-icalendar-date-format-string "%d.%m.%Y (%a)")
 (defvar gnus-icalendar-time-format-string "%H:%M")
-(defvar gnus-icalendar-org-capture-key "c")
+(defvar gnus-icalendar-org-capture-key nil)
 (defvar gnus-icalendar-org-format-string
   (concat
    "%S\n  Organizer: %O\n  Location: %L\n  Attendees (required): %R\n"
